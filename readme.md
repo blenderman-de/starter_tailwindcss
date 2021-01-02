@@ -3,6 +3,10 @@ Ready-to-use starter project for [TailwindCSS](https://tailwindcss.com/) and [Pa
 
 ## Install 
 
+Install NodeJS (under v15 [because it uses deasync](https://github.com/parcel-bundler/parcel/issues/5294))
+
+    choco install nodejs-lts -y
+
 Install dependencies from `package.json`.
 
     npm install 
