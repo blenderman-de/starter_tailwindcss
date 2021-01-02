@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx parcel src/index.html",
+    "devClean": "RD /S /Q .cache && npx parcel src/index.html",
     "build": "npx parcel build src/index.html --public-url ./",
-    "clean": "RD /S /Q dist && md dist",
+    "clean": "RD /S /Q dist && md dist",    
     "release": "npm run clean && npm run build && Xcopy /E /I .\\dist  .\\releases\\release_%npm_package_version%"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.6.0"
   }
 }
