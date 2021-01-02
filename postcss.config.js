@@ -22,7 +22,7 @@ if (!IS_DEVELOPMENT) {
     
     plugins.push(
         purgecss({
-            content: ['src/*.html','src/content/*.html'],
+            content: ['src/*.html','src/html/*.html'],
             extractors: [
                 {
                     extractor: TailwindExtractor,
