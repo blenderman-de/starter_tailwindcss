@@ -1,4 +1,4 @@
-Ready-to-use starter project for [TailwindCSS](https://tailwindcss.com/) and [Parcel](https://parceljs.org/) bundler. You can find demonstration of the build result [here](https://blenderman-de.github.io/starter_tailwindcss/).
+Ready-to-use starter project for [TailwindCSS](https://tailwindcss.com/) and [Parcel](https://parceljs.org/) bundler. Based on [Tailblocks](https://tailblocks.cc/). You can find demonstration of the build result [here](https://blenderman-de.github.io/starter_tailwindcss/).
 
 
 ## Install 
